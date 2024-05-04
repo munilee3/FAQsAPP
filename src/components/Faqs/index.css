@@ -1,0 +1,40 @@
+.app-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.faqs-container {
+  background-color: #ffffff;
+  width: 95%;
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqs {
+  color: #cb8805;
+  font-weight: bold;
+  font-size: 35px;
+}
+.faq-list {
+  padding-left: 0px;
+  padding: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .faqs {
+    font-size: 55px;
+  }
+  .faqs-container{
+    width: 85%;
+    padding: 40px;
+  }
+}
